@@ -112,7 +112,7 @@ about-widget:
 #####################################
 #############   About   #############
 #####################################
-about-title: Welcome to My Place
+about-title: A Little About Me
 about-description: |+
   Hi, I'm Paul, a self confessed nerd and part time geek.
   </br></br>
@@ -132,10 +132,10 @@ about-description: |+
   extremely high level of rigour and quality.
 
 #####################################
-#############  Features  ############
+#############  Expertise  ############
 #####################################
-features-title: Features
-features-description: Here are some examples of previous projects demonstrating the unique approach I can bring to freeing creative people from their technological shackles.
+features-title: Expertise
+features-description: I can apply my software engineering experience to almost any software problem, but here are some examples of my specialisations.
 
 #
 # Features
@@ -145,148 +145,55 @@ features:
 # Feature
 - title: Digital Audio
   description: Building the future of collaborative music, right here on the web. Bringing musicians together in a digital age.
-  icon: pe-7s-vector
+  icon: pe-7s-music
 
 # Feature
 - title: Video Games 
   description: From retro to next-gen, casual to hardcore; applying years of experience, from 8bit home computers to mobiles, to allow games designers to realise their dreams. 
-  icon: pe-7s-help2
+  icon: pe-7s-joy
 
 # Feature
 - title: CGI & Visual Effects
   description: Photo-realistic rendering, animation, procedural systems, generative systems, advanced physical simulation. 
-  icon: pe-7s-help2
+  icon: pe-7s-film
 
 
 #####################################
 ############  Portfolio  ############
 #####################################
 portfolio-title: Portfolio
-portfolio-description: Maecenas tempus nec mi et placerat. Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis.
+portfolio-description: Just some of the projects and products I've worked on, professionally or as hobby/side projects.
 
 #
 # Portfolio Grid
 #
-portfolio-categories: [Websites, Logo, Graphic Design, Development, Video, Photography]
+portfolio-categories: [Websites, Digital Audio, Games, Development, Web Applications]
 portfolio:
 
 # Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites, Graphic Design]
-  image: img-01.jpg
+- title: WeTracker
+  categories: [Digital Audio, Web Applications]
+  image: wetracker1.png
   url: '#'
 
 # Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Graphic Design, Logo, Websites]
-  image: img-02.jpg
+- title: Pico8 Shooter
+  categories: [Games]
+  image: pico8-shooter.png
   url: '#'
 
 # Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Graphic Design, Logo, Photography]
-  image: img-03.jpg
+- title: Pendng.com
+  categories: [Web Applications]
+  image: pendng.png
   url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites, Video, Photography]
-  image: img-04.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Development, Logo]
-  image: img-05.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Development, Video]
-  image: img-06.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites, Graphic Design]
-  image: img-07.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites , Video]
-  image: img-08.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Photography, Logo]
-  image: img-09.jpg
-  url: '#'
-
-
-#####################################
-##########  Core Features  ##########
-#####################################
-core-title: Core Features
-core-description: Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis aliquet diam ut eleifend.
-
-#
-# Core Features Left
-#
-core-features-left:
-
-# Feature
-- name: Creative
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-light
-
-# Feature
-- name: Minimalism
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-drop
-
-# Feature
-- name: Clean Coding
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-coffee
-
-# Feature
-- name: Friendly
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-smile
-
-#
-# Core Features Right
-#
-core-features-right:
-
-# Feature
-- name: Branding
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-wine
-
-# Feature
-- name: Web Design
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-monitor
-
-# Feature
-- name: Graphic Design
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-crop
-
-# Feature
-- name: Photography
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-camera
 
 
 #####################################
 ########### Testimonials ############
 #####################################
 testimonials-title: Testimonials
-testimonials-description: Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi.
+testimonials-description: A few words from some of the people I've been fortunate enough to work alongside through my career.
 
 #
 # Testimonials
@@ -294,157 +201,59 @@ testimonials-description: Aenean at tincidunt sem. Interdum et malesuada fames a
 testimonials:
 
 # Client
-- name: Johnatan Doe
-  url: http://themeforest.net
-  url-text: ThemeForest.net
-  avatar: avatar-01.jpg
-  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-  logo-img: themeforest.png
+- name: Michael Steliaros
+  avatar: steliaros.jpg
+  url: https://www.linkedin.com/in/michaelsteliaros/
+  url-text: Director of Research, Glu Mobile
+  cite: | 
+    Paul is highly results focused and consistent at getting outstanding results in the face of competing priorities. Always keeps the greater picture in mind and is highly objective.</br>
+    Self-motivated and always willing to take independent action, comes up with great ideas and solid implementation based on considered research & design.</br>
+    One of the most dependable people on the team and can always be counted upon to deliver. Can be trusted with important decisions and he has the skill to get things done.
+  logo-img: glu_logo.png
 
 # Client
-- name: Adam Smith
-  url: http://codecanyon.net
-  url-text: CodeCanyon.net
-  avatar: avatar-02.jpg
-  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-  logo-img: codecanyon.png
+- name: Zahir Mazhar
+  url: https://www.linkedin.com/in/zahir-mazhar-0541099/
+  url-text: Technical Lead Project Manager, Red Dot Square Solutions Ltd.
+  avatar: zahir.jpg
+  cite: Paul is a self motivated and supportive leader who not only listens but also coaches and mentors his teams to perform to their best. With excellent knowledge of all things technical, Paul can be relied upon to provide innovative and creative solutions to complex issues, which, will meet and exceed quality and customer expectations. As my Line manager, Paul was a true mentor and coach who gains the respect of his teams by being hands on and involved in resolving issues.
+  logo-img: rdss.gif
 
 # Client
-- name: Irene Warner
-  url: http://videohive.net
-  url-text: VideoHive.net
-  avatar: avatar-03.jpg
-  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-  logo-img: videohive.png
+- name: Jonathan Privett
+  url: https://www.linkedin.com/in/jonathan-privett-0353941/
+  url-text: Head of Film & TV, Rushes Postproduction
+  avatar: jonathan.jpg
+  cite: Paul was an incredible asset to the team here at Rushes and his technical knowledge in the sphere of 3D rendering is immense. He also managed to learn the relevant software and write from scratch a shot tracking program showcasing his ability to change discipline and program pretty much anything. It was certainly a loss when Paul moved on and I'd recommend him to anyone seeking a resourceful and highly knowledgeable software architect.
+  logo-img: rushes-postproduction.png
 
 # Client
-- name: Richard Ryan
-  url: http://audiojungle.net
-  url-text: AudioJungle.net
-  avatar: avatar-04.jpg
-  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-  logo-img: audiojungle.png
+- name: Bryan Salt
+  url: https://www.linkedin.com/in/bryan-salt-7869ab17/
+  url-text: Global Creative Director, Superscape Ltd.
+  avatar: bryan.jpg
+  cite: I was lucky enough to work with Paul for many years including my first job at incentive software, a company that produced ground breaking 3d games on low powered machines in the 80s. Paul was one of three cutting edge engineers that were some of the best I have worked with in my long career. What made Paul stand out was his ability to listen to the users, designers and other non programers, understand the business need and incorporate these needs into his design for the tools. 24 years later, Paul is still the guy I drop a call to if I have an impossible problem that no one else can help with, he is always happy to help out and point me in the right direction. I recommend Paul as a highly talented, open minded, flexible, experienced and thoroughly nice chap.
+  logo-img: superscape_logo.jpg
 
 
 #####################################
-############# Our Blog ##############
+############# Blog ##############
 #####################################
-blog-title: Our Blog
-blog-description: Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
-
-
-#####################################
-############### Team ################
-#####################################
-team-title: Meet Our Team
-team-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
-
-#
-# Team Members
-#
-team:
-
-# Team Member
-- name: Jack Skilton
-  tagline: Graphic Designer
-  avatar: avatar-01.jpg
-
-  # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
-
-# Team Member
-- name: James Young
-  tagline: Developer
-  avatar: avatar-02.jpg
-
-  # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
-
-# Team Member
-- name: Johnatan Doe
-  tagline: Hacker
-  avatar: avatar-04.jpg
-
-  # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
-
-# Team Member
-- name: Ecaterina Doe
-  tagline: Support Expert
-  avatar: avatar-03.jpg
-
-  # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
-
-
-#####################################
-########## Pricing Tables ###########
-#####################################
-pricing-title: Pricing Tables
-pricing-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
-
-#
-# Plan Personal
-#
-plan-personal-price: $99
-plan-personal-offer-1-title: 01 PSD Pack
-plan-personal-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-personal-offer-2-title: 100 Support Tickets
-plan-personal-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-personal-url: '#'
-
-#
-# Plan Business
-#
-plan-business-price: $499
-plan-business-offer-1-title: 05 PSD Pack
-plan-business-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-business-offer-2-title: 1000 Support Tickets
-plan-business-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-business-url: '#'
-
-#
-# Plan Ultimate
-#
-plan-ultimate-price: $999
-plan-ultimate-offer-1-title: 10 PSD Pack
-plan-ultimate-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-ultimate-offer-2-title: Support Unlimited
-plan-ultimate-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-ultimate-url: '#'
+blog-title: Blog
+blog-description: 
 
 
 #####################################
 ############   Contact   ############
 #####################################
-contact-title: Contact Us
-contact-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
+contact-title: Contact Me
+contact-description: 
 
 
 #####################################
 #############   Footer   ############
 #####################################
-footer-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
-footer-copyright-text: Gleesik&trade;
-footer-copyright-url: http://gleesik.ro/
-footer-copyright-year: 2016
+footer-description: 
+footer-copyright-text: Indigo Beetle&trade;
+footer-copyright-url: https://www.indigobeetle.co.uk
+footer-copyright-year: 2017
