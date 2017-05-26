@@ -10,18 +10,23 @@
   <div class="widget-content">
 
     <!-- MailChimp Email Form -->
-    <form class="newsletter-email-signup" action="http://twitter.us2.list-manage.com/subscribe/post?u={{ site.mailchimp.user-id }}&amp;id={{ site.mailchimp.list-id }}" method="post" novalidate>
+    <form class="newsletter-email-signup" action="{{ site.mailchimp.list-action }}" method="post" novalidate>
       <div class="field-group">
-        <label class="hide" for="name">Name</label>
-        <input type="text" value="" name="name" placeholder="Name">
+        <label class="hide" for="MERGE1">First Name</label>
+        <input type="text" value="" name="MERGE1" placeholder="First Name">
       </div>
-    	<div class="field-group">
-    		<label class="hide" for="email">Email</label>
-    		<input type="email" value="" name="email" placeholder="Email">
-    	</div>
+      <div class="field-group">
+        <label class="hide" for="MERGE2">Last Name</label>
+        <input type="text" value="" name="MERGE2" placeholder="Last Name">
+      </div>
+      <div class="field-group">
+        <label class="hide" for="MERGE0">Email</label>
+        <input type="email" value="" name="MERGE0" placeholder="Email">
+      </div>
 
-  	  <!-- bot signup protection - real people won't fill this in -->
-      <input type="text" class="hide" name="b_{{ site.mailchimp.user-id }}_{{ site.mailchimp.list-id }}" tabindex="-1" value="">
+      <!-- bot signup protection - real people won't fill this in -->
+      <input type="hidden" class="hide" name="u" tabindex="-1" value="{{ site.mailchimp.user-id }}">
+      <input type="hidden" class="hide" name="id" tabindex="-1" value="{{ site.mailchimp.list-id }}">
 
       <input type="submit" value="Subscribe" name="subscribe" class="button button-focus button-subscribe">
 

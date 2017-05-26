@@ -96,9 +96,10 @@ about-widget:
 
 # Enter your Mailchimp User ID and Campaign ID
 # @TODO: Add in a link for where to find these
-#mailchimp:
-#  user-id: REPLACEME
-#  list-id: REPLACEME
+mailchimp:
+  user-id: 55a3ba457c48738318dd70dfb
+  list-id: eb4745d6d0
+  list-action: 'https://indigobeetle.us16.list-manage.com/subscribe/post'
 
 ####
 #
