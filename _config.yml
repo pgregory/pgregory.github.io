@@ -163,7 +163,7 @@ features:
 ############  Portfolio  ############
 #####################################
 portfolio-title: Portfolio
-portfolio-description: Just some of the projects and products I've worked on, professionally or as hobby/side projects.
+portfolio-description: Some of the projects and products I've worked on, professionally or as hobby/side projects.
 
 #
 # Portfolio Grid
@@ -175,18 +175,21 @@ portfolio:
 - title: WeTracker
   categories: [Digital Audio, Web Applications]
   image: wetracker1.png
+  thumb: wetracker1-thumb.png
   url: '#'
 
 # Portfolio Item
 - title: Pico8 Shooter
   categories: [Games]
   image: pico8-shooter.png
+  thumb: pico8-shooter-thumb.png
   url: '#'
 
 # Portfolio Item
 - title: Pendng.com
   categories: [Web Applications]
   image: pendng.png
+  image: pendng-thumb.png
   url: '#'
 
 
