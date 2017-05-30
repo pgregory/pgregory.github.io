@@ -9,10 +9,11 @@
   "author": "Daniel Costrășel",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-sass": "^2.3.2",
     "browser-sync": "^2.13.0",
-    "gulp-autoprefixer": "^3.1.0"
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-util": "^3.0.8"
   },
   "repository": {
     "type": "template",

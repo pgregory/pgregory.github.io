@@ -18,6 +18,24 @@ section.blog-section {
 
     article.blog-article {
 
+      // Lists
+      ul, ol {
+        list-style: initial;
+        display: block;
+        padding-left: 40px;
+        li p {
+          margin-bottom: 1em;
+        }
+      }
+
+      ol {
+        list-style-type: decimal;
+      }
+
+      h2 {
+        margin-bottom: 1em;
+      }
+
       // Article Boxes
       .article-boxes {
         float: left;

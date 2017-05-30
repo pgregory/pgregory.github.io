@@ -2,6 +2,10 @@
 # Sera - OnePage Jekyll Template
 # Configuration File
 #
+#
+
+markdown: kramdown
+markdown_ext: "markdown,mkdown,md,mkd,mkdn"
 
 # Information for compile
 exclude: ["node_modules", "gulpfile.js", "package.json", "README-sera.md"]

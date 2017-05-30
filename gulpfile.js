@@ -3,6 +3,7 @@ var browserSync = require('browser-sync');
 var sass        = require('gulp-sass');
 var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
+var gutil       = require('gulp-util');
 var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
@@ -12,8 +13,10 @@ var messages = {
  * Build the Jekyll Site
  */
 gulp.task('jekyll-build', function (done) {
+    var options = ['build'];
+    options.push(gutil.env.drafts === true ? '--drafts' : null);
     browserSync.notify(messages.jekyllBuild);
-    return cp.spawn( jekyll , ['build'], {stdio: 'inherit'})
+    return cp.spawn( jekyll , options, {stdio: 'inherit'})
         .on('close', done);
 });
 
@@ -59,7 +62,11 @@ gulp.task('sass', function () {
  */
 gulp.task('watch', function () {
     gulp.watch(['_scss/*.scss', '_scss/*/*.scss'], ['sass']);
-    gulp.watch(['*.html', '_includes/*.html', '_includes/*/*.html', '_layouts/*.html', '_layouts/*/*.html', '_posts/*', 'js/*.js', 'images/*'], ['jekyll-rebuild']);
+    var folders = ['*.html', '_includes/*.html', '_includes/*/*.html', '_layouts/*.html', '_layouts/*/*.html', '_posts/*', 'js/*.js', 'images/*'];
+    if (gutil.env.drafts === true) {
+        folders.push('_drafts/*');
+    }
+    gulp.watch(folders, ['jekyll-rebuild']);
 });
 
 /**

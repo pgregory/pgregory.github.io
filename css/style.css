@@ -4385,6 +4385,24 @@ section.blog-section.page-layout .blog-articles-container {
   margin-top: 0;
 }
 
+section.blog-section.page-layout article.blog-article ul, section.blog-section.page-layout article.blog-article ol {
+  list-style: initial;
+  display: block;
+  padding-left: 40px;
+}
+
+section.blog-section.page-layout article.blog-article ul li p, section.blog-section.page-layout article.blog-article ol li p {
+  margin-bottom: 1em;
+}
+
+section.blog-section.page-layout article.blog-article ol {
+  list-style-type: decimal;
+}
+
+section.blog-section.page-layout article.blog-article h2 {
+  margin-bottom: 1em;
+}
+
 section.blog-section.page-layout article.blog-article .article-boxes {
   float: left;
   width: 100%;
