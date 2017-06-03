@@ -64,12 +64,12 @@ banner-link: https://themeforest.net/collections/6069390-sera
 ####################################
 ######  Global Social Links   ######
 ####################################
-youtube: '#'
-pinterest: '#'
-facebook: '#'
-twitter: '#'
-google-plus: '#'
-vimeo: '#'
+#youtube: '#'
+#pinterest: '#'
+facebook: 'https://www.facebook.com/indigobeetle/'
+#twitter: 'https://twitter.com/pcgregory'
+#google-plus: '#'
+#vimeo: '#'
 
 #########################
 ######   Widgets   ######
@@ -84,11 +84,11 @@ about-widget:
   author-tagline: Software Guru
   author-info: Driven by the desire to empower the worlds' Right Brains through technology.
   author-social-links:
-    youtube: '#'
-    pinterest: '#'
-    facebook: '#'
-    twitter: '#'
-    google-plus: '#'
+    #youtube: '#'
+    #pinterest: '#'
+    facebook: 'https://www.facebook.com/pcgregory'
+    twitter: 'https://twitter.com/pcgregory'
+    #google-plus: '#'
 
 # Google Map JS api
 # This is my api for this template

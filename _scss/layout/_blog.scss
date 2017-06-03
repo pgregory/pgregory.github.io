@@ -78,6 +78,12 @@ section.blog-section {
             }
           }
 
+          &.share-article {
+            div.social-icons ul.icons {
+              list-style: none;
+            }
+          }
+
           .box-content {
             float: left;
           }

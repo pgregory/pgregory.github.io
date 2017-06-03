@@ -4439,6 +4439,10 @@ section.blog-section.page-layout article.blog-article .article-boxes .box span.t
   }
 }
 
+section.blog-section.page-layout article.blog-article .article-boxes .box.share-article div.social-icons ul.icons {
+  list-style: none;
+}
+
 section.blog-section.page-layout article.blog-article .article-boxes .box .box-content {
   float: left;
 }
