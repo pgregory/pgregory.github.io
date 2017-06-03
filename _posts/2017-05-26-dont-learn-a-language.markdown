@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Don't Learn a Language"
-tagline: Single Page
+tagline: "Career Choices"
 date: 2017-05-26 15:53
 categories: [Programming]
 tags: [Programming, Learning, Software Design]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Is the Web Killing the Desktop?"
-tagline: Single Page
+tagline: "The Future of Software"
 date: 2017-05-27 12:50
 categories: [Application Development]
 tags: [Programming, Software Design, Web Applications]
