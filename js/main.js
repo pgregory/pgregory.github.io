@@ -168,8 +168,9 @@
       }
 
       // Portfolio Reveal Images
-      revealItem($portfolio_grid, $portfolio_grid_item);
-
+      if ($portfolio_grid && $portfolio_grid_item && $portfolio_grid_item.length > 0) {
+        revealItem($portfolio_grid, $portfolio_grid_item);
+      }
     });
 
     /**
