@@ -187,7 +187,7 @@ portfolio:
   categories: [Games]
   image: pico8-shooter.png
   thumb: pico8-shooter-thumb.png
-  url: '#'
+  url: '/portfolio/shmup/shmup.html'
 
 # Portfolio Item
 - title: Pendng.com
