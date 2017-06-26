@@ -180,7 +180,7 @@ portfolio:
   categories: [Digital Audio, Web Applications]
   image: wetracker1.png
   thumb: wetracker1-thumb.png
-  url: 'https://app.wetracker.xyz'
+  url: 'http://app.wetracker.xyz'
 
 # Portfolio Item
 - title: Pico8 Shooter
