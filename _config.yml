@@ -120,18 +120,18 @@ mailchimp:
 about-title: A Little About Me
 about-description: |+
   Hi, I'm Paul, a self confessed nerd and part time geek.
-  </br></br>
+  <br /><br />
   My overriding goal in life is to create hi-tech tools for non-hi-tech people. 
   I thrive on building software that unlocks the creative potential of others, 
   and am always on the lookout for the next big thing that brings technology to
   a new audience in a way that hasn't been achieved before.
-  </br></br>
+  <br /><br />
   I enjoy everything to do with creative media and entertainement, from games to 
   films and everything in-between. Working with creative teams most of my career
   gives me an insight into the ways of working and enables me to understand the 
   needs of the creative individual, digging under the superficial request to find
   unique and innovative solutions.
-  </br></br>
+  <br /><br />
   I apply 30 years of experience in the software industry, working with some of
   the most talented people in the field, to design, plan and implement with an
   extremely high level of rigour and quality.
@@ -214,8 +214,8 @@ testimonials:
   url: https://www.linkedin.com/in/michaelsteliaros/
   url-text: Director of Research, Glu Mobile
   cite: | 
-    Paul is highly results focused and consistent at getting outstanding results in the face of competing priorities. Always keeps the greater picture in mind and is highly objective.</br>
-    Self-motivated and always willing to take independent action, comes up with great ideas and solid implementation based on considered research & design.</br>
+    Paul is highly results focused and consistent at getting outstanding results in the face of competing priorities. Always keeps the greater picture in mind and is highly objective.<br />
+    Self-motivated and always willing to take independent action, comes up with great ideas and solid implementation based on considered research & design.<br />
     One of the most dependable people on the team and can always be counted upon to deliver. Can be trusted with important decisions and he has the skill to get things done.
   logo-img: glu_logo.png
 
