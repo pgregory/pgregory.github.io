@@ -3531,41 +3531,41 @@ header.site-header .arrow-down-section .arrow-down i:before {
     position: relative;
     float: right;
   }
-  header.site-header .site-navigation-bar .toggle-menu .navTrigger i {
+  header.site-header .site-navigation-bar .toggle-menu .navTrigger span {
     background-color: #fff;
     content: '';
     display: block;
     width: 100%;
     height: 2px;
   }
-  header.site-header .site-navigation-bar .toggle-menu .navTrigger i:nth-child(1) {
+  header.site-header .site-navigation-bar .toggle-menu .navTrigger span:nth-child(1) {
     -webkit-animation: sera-outT 0.8s backwards;
             animation: sera-outT 0.8s backwards;
     -webkit-animation-direction: reverse;
             animation-direction: reverse;
   }
-  header.site-header .site-navigation-bar .toggle-menu .navTrigger i:nth-child(2) {
+  header.site-header .site-navigation-bar .toggle-menu .navTrigger span:nth-child(2) {
     margin: 12px 0;
     -webkit-animation: sera-outM 0.8s backwards;
             animation: sera-outM 0.8s backwards;
     -webkit-animation-direction: reverse;
             animation-direction: reverse;
   }
-  header.site-header .site-navigation-bar .toggle-menu .navTrigger i:nth-child(3) {
+  header.site-header .site-navigation-bar .toggle-menu .navTrigger span:nth-child(3) {
     -webkit-animation: sera-outBtm 0.8s backwards;
             animation: sera-outBtm 0.8s backwards;
     -webkit-animation-direction: reverse;
             animation-direction: reverse;
   }
-  header.site-header .site-navigation-bar .toggle-menu .navTrigger.active i:nth-child(1) {
+  header.site-header .site-navigation-bar .toggle-menu .navTrigger.active span:nth-child(1) {
     -webkit-animation: sera-inT 0.8s forwards;
             animation: sera-inT 0.8s forwards;
   }
-  header.site-header .site-navigation-bar .toggle-menu .navTrigger.active i:nth-child(2) {
+  header.site-header .site-navigation-bar .toggle-menu .navTrigger.active span:nth-child(2) {
     -webkit-animation: sera-inM 0.8s forwards;
             animation: sera-inM 0.8s forwards;
   }
-  header.site-header .site-navigation-bar .toggle-menu .navTrigger.active i:nth-child(3) {
+  header.site-header .site-navigation-bar .toggle-menu .navTrigger.active span:nth-child(3) {
     -webkit-animation: sera-inBtm 0.8s forwards;
             animation: sera-inBtm 0.8s forwards;
   }
