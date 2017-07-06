@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Don't Learn a Language"
+description: Future-proof your software career, don't get stuck in a rut.
 tagline: "Career Choices"
 date: 2017-05-26 15:53
 categories: [Programming]

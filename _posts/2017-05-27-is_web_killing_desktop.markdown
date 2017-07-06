@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Is the Web Killing the Desktop?"
+description: How developments in browser technology could make desktop development unnecessary.
 tagline: "The Future of Software"
 date: 2017-05-27 12:50
 categories: [Application Development]
