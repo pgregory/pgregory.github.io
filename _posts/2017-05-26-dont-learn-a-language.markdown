@@ -5,7 +5,7 @@ description: Future-proof your software career, don't get stuck in a rut.
 tagline: "Career Choices"
 date: 2017-05-26 15:53
 categories: [Programming]
-tags: [Programming, Learning, Software Design]
+tags: [Programming, Learning, Software, Design]
 image: img-03.jpg
 excerpt: |
   I'm occassionally asked "What is the best language for me to learn?", my response, "Don't learn a language, learn to program!"
