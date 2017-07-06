@@ -4,10 +4,22 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>PICO-8 Cartridge</title>
-        <meta name="description" content="">
+        <meta name="description" content="Shmup Pico8 - A shooter in 32Kb and 16 colors!">
 
 <STYLE TYPE="text/css">
 <!--
+
+body {
+	background-color: #303030;
+}
+
+.center {
+	margin: 0px auto;
+}
+
+#container {
+	width: 512px;
+}
 
 canvas#canvas { width: 512px; height: 512px; }
 
@@ -53,11 +65,11 @@ canvas{
     
 </head>
 
-<body bgcolor="#303030">
+<body>
 
 	<br><br><br>
 
-	<center><div style="width:512px;">
+	<div class="center" id="container">
 
 	<canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()"></canvas>
 
@@ -134,8 +146,8 @@ canvas{
 
 	<br>	
 
-	</div></center>
-	<br><br>
+	</div>
+	<br /><br />
 
 </body></html>
 
