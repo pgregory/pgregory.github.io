@@ -2717,6 +2717,14 @@ input:hover:-moz-placeholder, input:active:-moz-placeholder, textarea:hover:-moz
   color: #d177ff;
 }
 
+.social-icons ul.icons.global-text-color-icons li a span span.hidden-text {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+  top: -10px;
+}
+
 .social-icons ul.icons li {
   float: left;
   margin-right: 10px;
@@ -4998,6 +5006,14 @@ footer.site-footer .footer-info .social-icons a {
 
 footer.site-footer .footer-info .social-icons a:hover, footer.site-footer .footer-info .social-icons a:active {
   color: #d177ff;
+}
+
+footer.site-footer .footer-info .social-icons a span span.hidden-text {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+  top: -10px;
 }
 
 footer.site-footer .footer-copyright {
