@@ -4060,6 +4060,14 @@ section.portfolio-section .portfolio-grid .item .item-content .links ul li a:hov
   background: rgba(255, 255, 255, 0.4);
 }
 
+section.portfolio-section .portfolio-grid .item .item-content .links ul li a span span.hidden-text {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+  top: -10px;
+}
+
 section.portfolio-section .portfolio-grid .overlay {
   display: none;
   position: fixed;
