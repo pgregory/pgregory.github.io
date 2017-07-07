@@ -292,4 +292,11 @@ blockquote {
   &.active {
     transform: translate3d(0, 0, 0);
   }
+  span span.hidden-text {
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    overflow: hidden;
+    top: -10px;
+  }
 }
