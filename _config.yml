@@ -265,3 +265,6 @@ footer-description:
 footer-copyright-text: Indigo Beetle&trade;
 footer-copyright-url: https://www.indigobeetle.co.uk
 footer-copyright-year: 2017
+
+gems:
+  - jekyll-sitemap
