@@ -243,6 +243,17 @@ testimonials:
   cite: I was lucky enough to work with Paul for many years including my first job at incentive software, a company that produced ground breaking 3d games on low powered machines in the 80s. Paul was one of three cutting edge engineers that were some of the best I have worked with in my long career. What made Paul stand out was his ability to listen to the users, designers and other non programers, understand the business need and incorporate these needs into his design for the tools. 24 years later, Paul is still the guy I drop a call to if I have an impossible problem that no one else can help with, he is always happy to help out and point me in the right direction. I recommend Paul as a highly talented, open minded, flexible, experienced and thoroughly nice chap.
   logo-img: superscape_logo.jpg
 
+# Client
+- name: Gavin Simpson 
+  url: https://www.linkedin.com/in/gavinssimpson/
+  url-text: GPU Compute Engineer, ARM Holdings
+  avatar: gavhead.jpg
+  cite: |+
+    Paul is an outstanding engineer. I've worked with him over many years and can vouch that his software engineering skills are second to none. Complex mathematical problems (think 3D renderer) or more creative development skills, not a problem. He also has the knack of explaining tricky concepts in easy to understand terms which proves very reassuring.  
+    <br /><br />
+    In short, if you're looking for flawless advice, and a solid well engineered solution implemented impossibly quickly, seek out Paul.
+  logo-img: arm_logo.png
+
 
 #####################################
 ############# Blog ##############
