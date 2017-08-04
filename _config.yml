@@ -193,8 +193,15 @@ portfolio:
 - title: Pendng.com
   categories: [Web Applications]
   image: pendng.png
-  image: pendng-thumb.png
+  thumb: pendng-thumb.png
   url: 'https://app.pendng.com'
+  
+# Portfolio Item
+- title: Fruit Spritzer 
+  categories: [Games]
+  image: fruit.png
+  thumb: fruit-thumb.png
+  url: 'https://gamejolt.com/games/fruitspritzer/273499'
 
 
 #####################################
