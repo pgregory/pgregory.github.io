@@ -12,6 +12,13 @@ body {
   background-repeat: none;
   background-size: cover;
 }
+@font-face {
+  font-family: 'Share Tech Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Share Tech Mono'), local('ShareTechMono-Regular'), url(https://fonts.gstatic.com/s/sharetechmono/v7/J7aHnp1uDWRBEqV98dVQztYldFcLowEFA87Heg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 #container {
   position: absolute;
   width: 100%;
@@ -20,14 +27,7 @@ body {
   background: radial-gradient(ellipse at center,  #0a2e38  0%, rgba(0,0,0,0) 70%);
   background-size: 100%;
 }
-@font-face {
-  font-family: 'Share Tech Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Share Tech Mono'), local('ShareTechMono-Regular'), url(https://fonts.gstatic.com/s/sharetechmono/v7/J7aHnp1uDWRBEqV98dVQztYldFcLowEFA87Heg.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-p {
+#demo {
   position: absolute;
   width: 100%;
   left: 50%;
@@ -42,27 +42,70 @@ p {
   color: #daf6ff;
   text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
 }
+
+#work {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.1em;
+  font-family: 'Share Tech Mono', monospace;
+  color: #00ff00;
+  text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+}
     </style>
     <link 
   </head>
   <body>
 
     <div id="container">
-      <p id="demo"></p>
+      <p id="demo"></p><br/>
+      <p id="work"></p>
     </div>
 
     <script>
+      function calcBusinessDays(dDate1, dDate2) { // input given as Date objects
+          var iWeeks, iDateDiff, iAdjust = 0;
+          if (dDate2 < dDate1) return -1; // error code if dates transposed
+          var iWeekday1 = dDate1.getDay(); // day of week
+          var iWeekday2 = dDate2.getDay();
+          iWeekday1 = (iWeekday1 == 0) ? 7 : iWeekday1; // change Sunday from 0 to 7
+          iWeekday2 = (iWeekday2 == 0) ? 7 : iWeekday2;
+          if ((iWeekday1 > 5) && (iWeekday2 > 5)) iAdjust = 1; // adjustment if both days on weekend
+          iWeekday1 = (iWeekday1 > 5) ? 5 : iWeekday1; // only count weekdays
+          iWeekday2 = (iWeekday2 > 5) ? 5 : iWeekday2;
+
+          // calculate differnece in weeks (1000mS * 60sec * 60min * 24hrs * 7 days = 604800000)
+          iWeeks = Math.floor((dDate2.getTime() - dDate1.getTime()) / 604800000)
+
+          if (iWeekday1 <= iWeekday2) {
+            iDateDiff = (iWeeks * 5) + (iWeekday2 - iWeekday1)
+          } else {
+            iDateDiff = ((iWeeks + 1) * 5) - (iWeekday1 - iWeekday2)
+          }
+
+          iDateDiff -= iAdjust // take into account both days on weekend
+
+          return (iDateDiff + 1); // add 1 because dates are inclusive
+        }
       // Set the date we're counting down to
-      var countDownDate = new Date("Dec 24, 2018 17:30:00 GMT").getTime();
+      var countDownDate = new Date("Dec 23, 2018 17:30:00 GMT+0100");
 
       // Update the count down every 1 second
       var x = setInterval(function() {
 
         // Get todays date and time
-        var now = new Date().getTime();
+        var now = new Date();
 
         // Find the distance between now and the count down date
-        var distance = countDownDate - now;
+        var distance = countDownDate.getTime() - now.getTime();
+
+        var workdays = calcBusinessDays(now, countDownDate);
 
         // Time calculations for days, hours, minutes and seconds
         var days = Math.floor(distance / (1000 * 60 * 60 * 24));
@@ -73,6 +116,7 @@ p {
         // Output the result in an element with id="demo"
         document.getElementById("demo").innerHTML = days + "d " + hours + "h "
           + minutes + "m " + seconds + "s ";
+        document.getElementById("work").innerHTML = workdays + " work days";
 
         // If the count down is over, write some text 
         if (distance < 0) {
